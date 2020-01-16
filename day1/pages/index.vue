@@ -1,10 +1,13 @@
 <template>
   <div class="min-h-screen flex relative">
-    <h1 class="absolute top-0 ml-8 mt-4 text-3xl font-bold text-gray-700">gamefriendly.io</h1>
+    <div class="absolute top-0 m-4 flex items-center cursor-pointer">
+      <img class="h-12 w-auto ml-4" src="https://assets-ouch.icons8.com/preview/282/2563cbaf-a962-41ef-bb29-14b654217786.png"/>
+      <h1 class="ml-2 mt-4 text-4xl font-bold text-gray-700">Gamefire</h1>
+    </div>
     <div class="w-1/2 min-h-screen bg-gray-100 flex items-center justify-center left-pane">
       <div class="w-1/2 bg-red flex flex-col justify-center items-center">
         <h1 class="text-5xl text-gray-700 leading-tight font-bold">It's dangerous to game alone.</h1>
-        <p class="text-gray-500 mt-8 text-xl">Join Gamefriendly FREE for 15 days and begin playing with friends from all over the world!</p>
+        <p class="text-gray-500 mt-8 text-xl">Join Gamefire FREE for 15 days and begin playing with friends from all over the world!</p>
         <form class="w-full mt-8 flex flex-col justify-center items-center">
           <div class="mb-4 w-full">
             <input class="appearance-none bg-white rounded-lg shadow py-4 px-3 w-full text-red-300 border-b-2 border-purple-500" placeholder="Username"/>
@@ -13,12 +16,12 @@
             <input class="appearance-none bg-white rounded-lg shadow py-4 px-3 w-full text-red-300 border-b-2 border-purple-500" placeholder="Password"/>
           </div>
         </form>
-        <button class="mt-8 py-3 px-3 bg-purple-400 text-white rounded-full font-bold w-1/3 mx-auto shadow-md border-b-2 border-purple-600">Sign Up</button>
+        <button class="mt-8 py-3 px-3 bg-purple-400 hover:bg-purple-500 active:bg-purple-600 text-white rounded-full font-bold w-1/3 mx-auto shadow-md border-b-2 border-purple-600">Sign Up</button>
         <p class="my-4 text-gray-500">or</p>
         <div class="flex items-center">
           <p class="text-gray-700 text-xl mr-3">Sign up with</p>
           <svg
-          class="h-auto w-24"
+          class="h-auto w-16 cursor-pointer"
             xmlns:dc="http://purl.org/dc/elements/1.1/"
             xmlns:cc="http://creativecommons.org/ns#"
             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -44,7 +47,7 @@
             </g>
           </svg>
         </div>
-        <p class="absolute bottom-0 mb-12">Already have an account?</p>
+        <p class="absolute bottom-0 mb-12 cursor-pointer hover:underline">Already have an account?</p>
       </div>
     </div>
     <div class="w-1/2 min-h-screen bg-purple-400 flex items-center justify-center right-pane">
